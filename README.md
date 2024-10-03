@@ -1,5 +1,7 @@
 # Linux-IPC-Message-Queues
 Linux IPC-Message Queues
+ ## Name: SANTHOSH D
+ ## REGNO: 212223220099
 
 # AIM:
 To write a C program that receives a message from message queue and display them
@@ -21,8 +23,9 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## C program that receives a message from message queue and display them
-### Writer.c
-```c
+
+## Writer.c
+```
 // C Program for Message Queue (Writer Process) 
 #include <stdio.h> 
 #include <sys/ipc.h> 
@@ -51,8 +54,8 @@ int main()
 	return 0; 
 }
 ```
-### Reader.c
-```c
+## Reader.c
+```
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -84,9 +87,8 @@ int main()
 }
 ```
 ## OUTPUT
-![alt text](image.png)
 
-
+![image](https://github.com/user-attachments/assets/90049515-4837-477c-a4b8-354219e0a094)
 
 # RESULT:
 The programs are executed successfully.
